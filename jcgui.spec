@@ -1,6 +1,6 @@
 %define name            jcgui
 %define version         0.7
-%define release         %mkrel 1
+%define release         %mkrel 2
 
 Name:           %{name}
 Summary:        GUI for JConvolver, an audio convolution engine for JACK
