@@ -10,6 +10,7 @@ Group:          Sound
 BuildRequires:  python
 BuildRequires:  gtk2-devel
 BuildRequires:  libsndfile-devel, jackit-devel
+BuildRequires:  desktop-file-utils
 Requires:       jconvolver
 
 %description
