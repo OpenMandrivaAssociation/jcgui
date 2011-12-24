@@ -21,12 +21,12 @@ used to create realistic acoustic environments.
 %setup -q
 
 %build
-./waf configure --prefix=%{_prefix}
-./waf
+./waf configure --prefix=%{_prefix} --cxxflags="%{optflags}"
+./waf -j1
 
 %install
 rm -rf %{buildroot}
-./waf install --destdir=%{buildroot}
+./waf install --destdir=%{buildroot} -j1
 desktop-file-install --add-category="X-MandrivaLinux-Multimedia-Sound;" \
                      --remove-category="X-Jack;" \
                      --dir %{buildroot}%{_datadir}/applications %{buildroot}%{_datadir}/applications/*
