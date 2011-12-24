@@ -1,7 +1,7 @@
 Name:           jcgui
 Summary:        GUI for JConvolver, an audio convolution engine for JACK
 Version:        0.7
-Release:        3
+Release:        4
 
 Source:         http://prdownloads.sourceforge.net/jcgui/%{name}-%{version}.tar.bz2
 URL:            http://jcgui.sourceforge.net/
