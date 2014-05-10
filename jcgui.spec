@@ -8,8 +8,9 @@ URL:            http://jcgui.sourceforge.net/
 License:        GPLv2
 Group:          Sound
 BuildRequires:  python
-BuildRequires:  gtk2-devel
-BuildRequires:  sndfile-devel, jackit-devel
+BuildRequires:  pkgconfig(gdk-2.0)
+BuildRequires:  pkgconfig(sndfile)
+BuildRequires:  pkgconfig(jack)
 BuildRequires:  libzita-resampler-devel
 BuildRequires:  desktop-file-utils
 Requires:       jconvolver
