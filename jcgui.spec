@@ -36,7 +36,7 @@ desktop-file-install --add-category="X-MandrivaLinux-Multimedia-Sound;" \
 
 
 %files
-%doc README.md COPYING
+%doc README COPYING
 %{_bindir}/Jc_Gui
 %{_datadir}/pixmaps/*.png
 %{_datadir}/applications/Jc_Gui.desktop
