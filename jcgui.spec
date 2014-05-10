@@ -4,7 +4,8 @@ Version:        0.8
 Release:        3
 
 Source:         http://prdownloads.sourceforge.net/jcgui/%{name}-%{version}.tar.bz2
-URL:            http://jcgui.sourceforge.net/
+# last commit 2 years ago, abandonware.
+URL:            https://github.com/zzzzrrr/jcgui
 License:        GPLv2
 Group:          Sound
 BuildRequires:  python
@@ -35,6 +36,7 @@ desktop-file-install --add-category="X-MandrivaLinux-Multimedia-Sound;" \
 
 
 %files
+%doc README.md COPYING
 %{_bindir}/Jc_Gui
 %{_datadir}/pixmaps/*.png
 %{_datadir}/applications/Jc_Gui.desktop
