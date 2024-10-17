@@ -4,7 +4,7 @@ Version:        0.8
 Release:        2
 
 Source:         http://prdownloads.sourceforge.net/jcgui/%{name}-%{version}.tar.bz2
-URL:            http://jcgui.sourceforge.net/
+URL:            https://jcgui.sourceforge.net/
 License:        GPLv2
 Group:          Sound
 BuildRequires:  python
